@@ -9,8 +9,6 @@
     "dev": "nodemon index.js",
     "build": "broweserify app/scripts/src/main.js -o app/scripts/dist/main.js",
     "watch": "watchify app/scripts/src/main.js -o app/scripts/dist/main.js"
-//  "build": "parcel build --no-minify app/scripts/src/main.js -d app/scripts/dist",
-//  "watch": "parcel watch app/scripts/src/main.js -d app/scripts/dist"
   },
   "browserify": {
     "transform": [
